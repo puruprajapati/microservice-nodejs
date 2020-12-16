@@ -1,0 +1,23 @@
+docker build
+  docker build -t pprajapati/auth .
+
+name of docker image: pprajapati/auth
+
+
+
+prepare kubernete
+
+
+
+
+run scaffold
+run in terminal where scaffold.yaml is present
+  scaffold dev
+
+update host file
+  code /etc/hosts
+
+
+
+
+thisisunsafe: type in chrome browser
