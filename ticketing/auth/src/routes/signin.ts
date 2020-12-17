@@ -13,7 +13,7 @@ import { Password } from '../utilities/password';
 const router = express.Router();
 
 router.post(
-  '/api/users/sigin',
+  '/api/users/signin',
   [
     body('email').isEmail().withMessage('Email must be valid'),
     body('password').trim().notEmpty().withMessage('Password is emptpy'),
